@@ -1,0 +1,60 @@
+html {
+  display: flex;
+  height: 100vh;
+}
+body {
+  flex:1;
+  /* background image */
+  background-image: url("background3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background color */
+
+  height: 100vh;
+}
+
+
+table {
+  margin-bottom: 0 !important;
+  background: white;
+}
+table,
+thead,
+tr,
+tbody,
+th,
+td,
+div {
+  text-align: center;
+  align-self: center;
+  vertical-align: middle;
+}
+
+div .p-2 {
+  padding: 0 !important;
+}
+#addButton {
+  margin-top: 0px;
+  height: 40px;
+}
+
+#tableCaption { 
+  color: #fff;
+  background: #212529;
+  border-color: #373b3e;
+  background-color: #2c3034;
+  padding: 8px;
+
+
+}
+
+#block {
+  padding-top: 24px;
+}
+
+.tbodyDiv{
+  max-height: clamp(50em,500vh,250px);
+  overflow: auto;
+}
